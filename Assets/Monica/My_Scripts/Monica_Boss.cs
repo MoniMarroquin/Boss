@@ -25,5 +25,6 @@ namespace MonicaBoss
         // boss trying to make it flashey/ its an act so not a real fight to the death
         // object that the boss gets near and can rapidly gain health 
         // the room is a long halway and the boss runs away, the way is covered in traps 
+        // when the boss gets hit 3 times he moves away from the healing area to another one, a circle of mushroms?
     }
 }
