@@ -19,5 +19,6 @@ namespace Monica_Healing
         }
         // if enemey is here helth goes up
         // crystals haveing a healing boost/ make the players attack weeker 
+        // have the boss float in the air to heal, the crystals start glowing, player can distroy them at any time
     }
 }

@@ -4,12 +4,19 @@ using UnityEngine;
 
 namespace MonicaBoss
 {
-    public class Monica_Boss : MonoBehaviour
+    public class Boss : MonoBehaviour
     {
+        [SerializeField] Animator animator;
+        [field: SerializeField] public Transform Target { get; set; }
+        [field: SerializeField] public Rigidbody Rigidbody { get; set; }
+        [field: SerializeField] public float HitDistance { get; set;}
+        [field: SerializeField] public float MinShootDistance {get;set;}
+        [field: SerializeField] public float MaxShootDistance {get;set;}
+        [field: SerializeField] public float WalkingSpeed { get; set;}
         // Start is called before the first frame update
         void Start()
         {
-
+            
         }
 
         // Update is called once per frame
